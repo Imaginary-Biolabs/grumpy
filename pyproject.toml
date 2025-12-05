@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=69.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grumpy"
+version = "0.1.0"
+description = "A minimal example Python package."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Your Name", email = "you@example.com" }]
+keywords = ["example", "package"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Imaginary-Biolabs/grumpy"
+Repository = "https://github.com/Imaginary-Biolabs/grumpy"
+Issues = "https://github.com/Imaginary-Biolabs/grumpy/issues"
+
+[tool.setuptools.packages.find]
+include = ["grumpy*"]
+
+
