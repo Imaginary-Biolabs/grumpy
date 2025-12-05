@@ -3,7 +3,7 @@ requires = ["setuptools>=69.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "grumpy"
+name = "grumpy-arrays"
 version = "0.1.0"
 description = "A minimal example Python package."
 readme = "README.md"
